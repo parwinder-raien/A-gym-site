@@ -1,0 +1,202 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    color:#505050;
+    min-width: 690px;
+
+}
+
+ .wrapper{
+    max-width: 1800px;
+
+    margin:auto;
+    padding: 0 30px;
+
+
+}
+
+.clearfix::after{
+   clear: both;
+   content: "";
+   display: table; 
+}
+
+header {
+    height:600px;
+    background-image: url('../img/Bg.jpg');
+    background-size:cover;
+}
+
+.header-small{
+    height: 310px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    padding: 25px 50px 25px 0;
+
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #7cccff;
+}
+
+#brand{
+    text-align:center;
+    padding: top 100px; ;
+}
+
+#brand img{
+    height: 100px;
+    width: 100px;
+}
+
+#brand h1{
+    font-size: 70px;
+    
+    line-height:100px; 
+    color:#7cccff;
+}
+
+#brand h1 span{
+    font-size: 45px;
+    font-weight: 800;
+    color: lightskyblue
+}
+
+section{
+    padding:50px 0;
+}
+
+.intro{
+    text-align:center;
+}
+
+section p{
+    padding-top:20px;
+}
+
+.text-lg{
+    font-size: 20px;
+}
+
+.bg-grey{
+    background-color: #f5f5f5;;
+}
+
+h2{
+    font-size:42px;
+    color: #7cccff;
+    padding-bottom: 20px;
+}
+
+.why{
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+footer{
+    background-color: #404040;
+    color: white;
+    text-align-last: center;
+    font-size: 14px;
+    padding:  15px 0px;
+
+}
+
+
+#brand-small{
+    text-align:center;
+    padding-top:  20px; ;
+}
+
+#brand-small img{
+    float: left;
+    height: 100px;
+    width: 100px;
+k    padding-right: 20px;
+}
+
+#brand-small h1{
+   
+    font-size: 70px;
+    
+    line-height:100px; 
+    color:white;
+}
+
+.about-img{
+    width:620px;
+    padding:0 0 20px 20px;
+    float: right;
+}
+
+h3{
+    font-size: 30px;
+    padding-top:20px
+}
+
+.about-list {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.services-block{
+    float:left;
+    width: 32%;
+    margin-right: 2%;
+    padding:15px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+   margin-bottom: 30px; 
+   min-width: 500px;
+
+
+}
+
+.services-block-last{
+    margin-right: 0;
+   
+
+   
+
+
+}
+
+.services-block img{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+
+
+.services-block h3{
+  font-size: 25px;
+
+}
+
+.google-map{
+    float: right;
+    padding: 0 0 20px 30px;
+}
+
+.link-active{
+    color:#7cccff;
+    font-size: 25;
+}
